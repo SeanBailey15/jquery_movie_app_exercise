@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1 class="header">Rotten Potatoes</h1>
+    </div>
+    <div class="user-input">
+        <form action="" class="input-form" id="input-form">
+            <input type="text" class="movie-title" id="movie-title" min="2" placeholder="Movie Title">
+            <input type="number" class="rating" id="rating" min="0" max="10" placeholder="Rating 0/10">
+            <button type="button" class="form-btn" id="form-btn">Add To List</button>
+        </form>
+    </div>
+    <hr class="separate">
+    <!-- BELOW COMMENTED FOR FURTHER STUDY -->
+    <!-- <div class="sort">
+        <button type="button" class="alphabetic" id="alphabetic">Sort A-Z</button>
+        <button type="button" class="numeric" id="numeric">Sort High-Low</button>
+    </div> -->
+    <div class="movies">
+        <ul class="movies-list" id="movies-list">
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

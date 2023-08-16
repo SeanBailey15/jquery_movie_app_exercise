@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page-header,
+.user-input {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.header {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  text-decoration: underline 0.5rem black;
+}
+
+.input-form {
+  width: 50rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-title {
+  width: 15rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.rating {
+  width: 8rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.form-btn {
+  width: 6rem;
+  height: 1.5rem;
+}
+
+.separate {
+  margin-top: 1rem;
+  border: 0.25rem solid black;
+}
+
+.sort {
+  width: 30rem;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movies {
+  margin-top: 1rem;
+}
+
+.movies-list {
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+.movie-item {
+  width: 21rem;
+  font-size: 1.25rem;
+  display: inline-block;
+  margin-top: 1rem;
+  padding-left: 5px;
+}
+
+.list-btn {
+  width: 8rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+li:nth-of-type(even) {
+  background: rgb(208, 229, 237);
+}
+
+li:nth-of-type(odd) {
+  background: rgb(230, 230, 230);
+}
+
+.list-btn:nth-of-type(even) {
+  background: rgb(208, 229, 237);
+}
+
+.list-btn:nth-of-type(odd) {
+  background: rgb(230, 230, 230);
+}
